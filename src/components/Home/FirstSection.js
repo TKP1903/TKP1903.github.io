@@ -23,8 +23,6 @@ const FirstSection = () => {
               <h4 className="heading-sub">
                 One Stop Shop For Your Chicken Cravings
               </h4>
-
-              <Button className="button-first">Read More</Button>
             </div>
           </div>
         </Carousel.Caption>

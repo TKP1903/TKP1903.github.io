@@ -123,7 +123,7 @@ h2.heading-main {
     display: none;
   }
   .slider-image {
-    height: 50vh;
+    height: 50vh !important;
   }
 
   .carousel-caption {
@@ -181,7 +181,10 @@ h2.heading-main {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
+  .slider-image {
+    height: 30vh !important;
+  }
   .carousel-caption h2 {
     font-size: 13px;
   }

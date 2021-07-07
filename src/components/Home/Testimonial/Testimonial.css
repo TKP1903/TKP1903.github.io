@@ -1,10 +1,17 @@
+.customer {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  color: #f0bc1d;
+}
+
 .testimonial-section {
   position: relative;
-  margin-top: 87px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("https://drive.google.com/uc?export=view&id=1HogFGf9K4BPhMP_5AgiFDWGh-xo6jfJC") center no-repeat;
+  background: url("https://drive.google.com/uc?export=view&id=1HogFGf9K4BPhMP_5AgiFDWGh-xo6jfJC")
+    center no-repeat;
   background-size: contain;
   background-attachment: fixed;
   padding: 100px auto;
@@ -87,15 +94,19 @@
   }
   .testimonial-section {
     position: relative;
-    margin-top: 87px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("https://drive.google.com/uc?export=view&id=1HogFGf9K4BPhMP_5AgiFDWGh-xo6jfJC") center no-repeat;
+    background: url("https://drive.google.com/uc?export=view&id=1HogFGf9K4BPhMP_5AgiFDWGh-xo6jfJC")
+      center no-repeat;
     /* background-size: contain; */
     background-attachment: fixed;
     padding: 100px 20px;
     height: 70vh;
     color: rgb(0, 0, 0);
+  }
+  .customer {
+    font-size: 20px;
+    margin: 15px;
   }
 }
