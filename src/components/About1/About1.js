@@ -65,7 +65,7 @@ const About1 = () => {
           </div>
         </div>
       </div>
-      <div className="parent1">
+      <div className="parent3">
         <div className="child-img">
           <img
             id="side-image2"

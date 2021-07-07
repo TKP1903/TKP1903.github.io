@@ -14,6 +14,7 @@ const Order = () => {
               <a
                 className="link-hotel"
                 href="https://www.zomato.com/chennai/atti-square-teynampet"
+                target="_blank"
               >
                 Zomato
               </a>
@@ -29,6 +30,7 @@ const Order = () => {
               <a
                 className="link-hotel"
                 href="https://www.swiggy.com/restaurants/atti-square-old-washermanpet-george-town-chennai-372157"
+                target="_blank"
               >
                 Swiggy
               </a>

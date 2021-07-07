@@ -36,7 +36,8 @@
   border: #f0bc1d 1px solid;
 }
 
-.parent1 {
+.parent1,
+.parent3 {
   background-color: #f0bc1d;
   margin-top: 3rem;
   margin: auto;
@@ -95,6 +96,10 @@
   .parent1 {
     flex-direction: column;
   }
+  .parent3 {
+    flex-direction: column-reverse;
+  }
+
   .child-content {
     width: 100%;
     margin-right: 0;
