@@ -12,7 +12,7 @@
   align-items: center;
   background: url("https://attisquare.s3.amazonaws.com/atti-images/atti-18.webp")
     center no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   padding: 100px auto;
   height: 70vh;
@@ -99,7 +99,7 @@
     align-items: center;
     background: url("https://attisquare.s3.amazonaws.com/atti-images/atti-18.webp")
       center no-repeat;
-    /* background-size: contain; */
+    background-size: cover;
     background-attachment: fixed;
     padding: 100px 20px;
     height: 70vh;
