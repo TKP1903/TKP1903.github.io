@@ -24,6 +24,7 @@ function App() {
       setLoading(false);
     }, 1400);
   }, []);
+  // window.location.reload("/public/index.html");
   return (
     <Router>
       <div className="App">
