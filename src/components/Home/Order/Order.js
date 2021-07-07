@@ -15,6 +15,7 @@ const Order = () => {
                 className="link-hotel"
                 href="https://www.zomato.com/chennai/atti-square-teynampet"
                 target="_blank"
+                rel="noreferrer"
               >
                 Zomato
               </a>
@@ -31,6 +32,7 @@ const Order = () => {
                 className="link-hotel"
                 href="https://www.swiggy.com/restaurants/atti-square-old-washermanpet-george-town-chennai-372157"
                 target="_blank"
+                rel="noreferrer"
               >
                 Swiggy
               </a>

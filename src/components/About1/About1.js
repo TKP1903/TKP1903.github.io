@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./About1.css";
-import { Button } from "react-bootstrap";
 const About1 = () => {
   return (
     <div className="parent">
