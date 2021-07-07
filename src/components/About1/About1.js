@@ -1,6 +1,5 @@
 import React from "react";
-import shawarma from "./images/_hvd1306_1 (1).webp";
-import person from "./images/_hvd1170 (1).webp";
+
 import "./About1.css";
 import { Button } from "react-bootstrap";
 const About1 = () => {
@@ -37,7 +36,11 @@ const About1 = () => {
           </p>
         </div>
         <div className="child-img">
-          <img id="side-image1" src={shawarma} alt="" />
+          <img
+            id="side-image1"
+            src="https://attisquare.s3.amazonaws.com/atti-images/atti-28.webp"
+            alt=""
+          />
         </div>
       </div>
       <div className="parent2">
@@ -64,7 +67,11 @@ const About1 = () => {
       </div>
       <div className="parent1">
         <div className="child-img">
-          <img id="side-image2" src={person} alt="" />
+          <img
+            id="side-image2"
+            src="https://attisquare.s3.amazonaws.com/atti-images/atti-14.webp"
+            alt=""
+          />
         </div>
         <div className="child2-content">
           <h2 className="about2-title">How We Do It</h2>

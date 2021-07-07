@@ -6,7 +6,8 @@
   min-height: 100vh;
   flex-direction: row;
   margin-top: 60px;
-  background: url("../Home/images/_HVD1247_1-min.jpg") center;
+  background: url("https://attisquare.s3.amazonaws.com/atti-images/atti-3.webp")
+    no-repeat center;
   background-size: cover;
   padding-top: 5%;
   padding-bottom: 5%;

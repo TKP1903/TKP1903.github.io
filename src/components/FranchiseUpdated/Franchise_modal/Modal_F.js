@@ -1,6 +1,4 @@
-import react from "react";
 import "./Modal_F.scss";
-// import kiosk from "./kiosk.png";
 import { Row, Col } from "react-bootstrap";
 
 const Modal_F = () => {

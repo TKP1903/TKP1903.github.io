@@ -6,21 +6,7 @@ import { GrSystem } from "react-icons/gr";
 import { GiGrowth } from "react-icons/gi";
 import { GiReceiveMoney } from "react-icons/gi";
 import { GiBreakingChain } from "react-icons/gi";
-import { Row, Col, Container } from "react-bootstrap";
-import { AiFillTags } from "react-icons/ai";
-import { BsFillPeopleFill } from "react-icons/bs";
-import { HiSpeakerphone } from "react-icons/hi";
-import { BsMap } from "react-icons/bs";
-import { BsFillBarChartFill } from "react-icons/bs";
-import { AiFillHeart } from "react-icons/ai";
-import { HiCubeTransparent } from "react-icons/hi";
-
-import { RiFilePaper2Line } from "react-icons/ri";
-import { MdAccountCircle } from "react-icons/md";
-
-import { GoLocation } from "react-icons/go";
-import { GoVerified } from "react-icons/go";
-import { GoTools } from "react-icons/go";
+import { Row, Col } from "react-bootstrap";
 import Process from "./Process/Process";
 import Modal_F from "./Franchise_modal/Modal_F";
 
@@ -136,7 +122,6 @@ const FranchiseUpdated = () => {
               >
                 <h3 className="head text-center fran_head">
                   Franchise Profile Requirements{" "}
-                
                 </h3>
                 <p className="narrow text-center">
                   <div className="fran_para">
@@ -193,11 +178,6 @@ const FranchiseUpdated = () => {
                       </Col>
                     </Row>
                   </p>
-                 
-              
-                         
-              
-              
                 </p>
               </div>
               <div
@@ -278,7 +258,7 @@ const FranchiseUpdated = () => {
                   <div class="container5">
                     <div class="list5">
                       <Row>
-                        <Col  >
+                        <Col>
                           <div class="num">
                             <h3>Powerful Brand Association</h3>
                           </div>
@@ -301,8 +281,8 @@ const FranchiseUpdated = () => {
                               Centralized Supply – Uniform Taste and Quality
                             </h3>
                           </div>
-                          </Col>
-                          <Col >
+                        </Col>
+                        <Col>
                           <div class="num">
                             <h3>New Products & Development</h3>
                           </div>

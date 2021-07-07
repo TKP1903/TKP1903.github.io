@@ -1,8 +1,6 @@
 import { Button } from "react-bootstrap";
 import React from "react";
 import "./Order.css";
-import order from "./Party Order.jpeg";
-import { Link } from "react-router-dom";
 const Order = () => {
   return (
     <section className="order-section">

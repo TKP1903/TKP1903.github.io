@@ -9,40 +9,40 @@ const Camp = () => {
       <div className="body2">
         <div class="image-container">
           <div class="image">
-            <img src="https://drive.google.com/uc?export=view&id=1iBOY7I4UbI6oDWjWPZrik4XD8B9Lw5fj" />
-            <img src="https://drive.google.com/uc?export=view&id=1iBOY7I4UbI6oDWjWPZrik4XD8B9Lw5fj" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-1.webp" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-1.webp" />
           </div>
           <div class="image">
-            <img src="https://drive.google.com/uc?export=view&id=1K2ouRVT3aGHgZUSj_H-AKmji2KgIEtRh" />
-            <img src="https://drive.google.com/uc?export=view&id=1K2ouRVT3aGHgZUSj_H-AKmji2KgIEtRh" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-2.webp" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-2.webp" />
           </div>
           <div class="image">
-            <img src="https://drive.google.com/uc?export=view&id=1PeKsHwrT0xSbDu9RP4cSrnfQlLq_O4vA" />
-            <img src="https://drive.google.com/uc?export=view&id=1PeKsHwrT0xSbDu9RP4cSrnfQlLq_O4vA" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-3.webp" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-3.webp" />
           </div>
           <div class="image">
-            <img src="https://drive.google.com/uc?export=view&id=1ynUdW5UVIO2THF3V_GJf4kD-ATR1dkkp" />
-            <img src="https://drive.google.com/uc?export=view&id=1ynUdW5UVIO2THF3V_GJf4kD-ATR1dkkp" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-4.webp" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-4.webp" />
           </div>
           <div class="image">
-            <img src="https://drive.google.com/uc?export=view&id=17xfIJzoXdiWqwx7VUn6mfZtusxaRy-X4" />
-            <img src="https://drive.google.com/uc?export=view&id=17xfIJzoXdiWqwx7VUn6mfZtusxaRy-X4" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-5.webp" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-5.webp" />
           </div>
           <div class="image">
-            <img src="https://drive.google.com/uc?export=view&id=1Y_-MLWYlJlMgElUhG9dKQVOBPdURod0Q" />
-            <img src="https://drive.google.com/uc?export=view&id=1Y_-MLWYlJlMgElUhG9dKQVOBPdURod0Q" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-6.webp" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-6.webp" />
           </div>
           <div class="image">
-            <img src="https://drive.google.com/uc?export=view&id=1GvXgDVa9f181eDsn0x-MTl5J63II2ZFV" />
-            <img src="https://drive.google.com/uc?export=view&id=1GvXgDVa9f181eDsn0x-MTl5J63II2ZFV" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-7.webp" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-7.webp" />
           </div>
           <div class="image">
-            <img src="https://drive.google.com/uc?export=view&id=1F-8Igtu_DY96FWZ2zdRewNfrirIukVRC" />
-            <img src="https://drive.google.com/uc?export=view&id=1F-8Igtu_DY96FWZ2zdRewNfrirIukVRC" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-8.webp" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-8.webp" />
           </div>
           <div class="image">
-            <img src="https://drive.google.com/uc?export=view&id=1j4uSIgvcKdSz5JpTnUweumn8qEidc8Pw" />
-            <img src="https://drive.google.com/uc?export=view&id=1j4uSIgvcKdSz5JpTnUweumn8qEidc8Pw" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-9.webp" />
+            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-9.webp" />
           </div>
         </div>
       </div>

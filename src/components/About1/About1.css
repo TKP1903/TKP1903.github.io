@@ -14,7 +14,7 @@
 .text-about {
   text-align: center;
   padding: 10%;
-  background-image: url("../Gallery/webp/atti-22.webp");
+  background-image: url("https://attisquare.s3.amazonaws.com/atti-images/atti-22.webp");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;

@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("https://drive.google.com/uc?export=view&id=1HogFGf9K4BPhMP_5AgiFDWGh-xo6jfJC")
+  background: url("https://attisquare.s3.amazonaws.com/atti-images/atti-18.webp")
     center no-repeat;
   background-size: contain;
   background-attachment: fixed;
@@ -97,7 +97,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("https://drive.google.com/uc?export=view&id=1HogFGf9K4BPhMP_5AgiFDWGh-xo6jfJC")
+    background: url("https://attisquare.s3.amazonaws.com/atti-images/atti-18.webp")
       center no-repeat;
     /* background-size: contain; */
     background-attachment: fixed;
