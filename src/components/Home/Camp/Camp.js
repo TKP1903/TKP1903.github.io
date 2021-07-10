@@ -9,17 +9,10 @@ const Camp = () => {
       <div className="body2">
         <div class="image-container">
           <div class="image">
-            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-1.webp" />
-            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-1.webp" />
-          </div>
-          <div class="image">
             <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-2.webp" />
             <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-2.webp" />
           </div>
-          <div class="image">
-            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-3.webp" />
-            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-3.webp" />
-          </div>
+
           <div class="image">
             <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-4.webp" />
             <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-4.webp" />
@@ -39,10 +32,6 @@ const Camp = () => {
           <div class="image">
             <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-8.webp" />
             <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-8.webp" />
-          </div>
-          <div class="image">
-            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-9.webp" />
-            <img src="https://attisquare.s3.amazonaws.com/atti-images/camp-9.webp" />
           </div>
         </div>
       </div>

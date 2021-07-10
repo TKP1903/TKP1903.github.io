@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  padding-bottom: 65px;
+  padding-bottom: 5px;
 }
 .colo {
   background-color: rgba(0, 0, 0);
@@ -14,16 +14,17 @@
   color: #f0bc1d;
 }
 .image-container {
+  height: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  width: 900px;
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
   grid-gap: 0.5rem;
 }
 
 .image-container .image {
   position: relative;
-  padding-bottom: 100%;
+  padding-bottom: 70%;
 }
 
 .image-container .image img {
@@ -49,10 +50,15 @@
   clip-path: var(--clip-end);
 }
 @media (max-width: 991px) {
+  .colo h2 {
+    padding: 10px;
+  }
   .body2 {
     min-height: 50vh;
   }
   .image-container {
+    display: flex;
+    flex-direction: column !important;
     padding-left: 10px;
     padding-right: 10px;
   }

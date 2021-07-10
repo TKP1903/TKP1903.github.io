@@ -40,7 +40,7 @@ p {
   font-size: 2rem;
   background: rgba(79, 83, 123, 0.822);
 }
-.timeline-icon > i{
+.timeline-icon > i {
   color: #000;
 }
 .timeline .timeline-container .timeline-icon i {
@@ -55,14 +55,14 @@ p {
   border-radius: 50%;
 }
 .timeline .timeline-container .timeline-body {
-  background: #f0bb1dc2;
+  background: #f0bc1d;
   border-radius: 3px;
   padding: 20px 20px 15px;
   box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.1);
 }
 .timeline .timeline-container .timeline-body:before {
   content: "";
-  background: #f0bb1db6;
+  background: #f0bc1d;
   width: 20px;
   height: 20px;
   display: block;
@@ -75,11 +75,11 @@ p {
 .timeline .timeline-container .timeline-body .timeline-title {
   margin-bottom: 1.4rem;
 }
-.timeline-title{
+.timeline-title {
   color: #000;
 }
 .timeline .timeline-container .timeline-body .timeline-title .badge {
-  background: #f0bc1dc2;
+  background: #f0bc1d;
   padding: 4px 8px;
   border-radius: 3px;
   font-size: 12px;
@@ -152,8 +152,8 @@ p {
   background-color: #1a1a1a;
 }
 
-@media (max-width: 991px){
-  .container{
+@media (max-width: 991px) {
+  .container {
     padding: 40px;
   }
 }

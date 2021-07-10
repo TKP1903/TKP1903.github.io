@@ -5,7 +5,8 @@
   width: 100%;
   margin: 90px auto;
   height: auto;
-  background: url("https://drive.google.com/uc?export=view&id=194WlttNvQfEndc_vxgP3aWohFJw9pYb5") no-repeat;
+  background: url("https://attisquare.s3.amazonaws.com/atti-images/franchise.webp")
+    no-repeat;
   background-position: center;
   background-size: cover;
 
@@ -73,10 +74,9 @@ ul.list {
   margin-left: 2%;
 }
 
-.madhubas{
+.madhubas {
   margin-bottom: 25px;
 }
-
 
 .item-points {
   size: 30;
@@ -117,8 +117,7 @@ ul.list {
   box-sizing: border-box;
 }
 .points {
-  margin: 50px;
-  padding:30px;
+  padding: 30px;
   background-color: black;
 }
 .impor {
@@ -322,11 +321,18 @@ li.active span.round-tabs.five {
 li::after {
   position: relative !important;
 }
-
+@media (max-width: 1199px) {
+  .madhubas {
+    width: 100%;
+  }
+}
 @media (max-width: 991px) {
   .board {
     width: 90%;
     height: auto !important;
+  }
+  .madhubas {
+    width: 100%;
   }
   .board > div.board-inner {
     padding-top: -5%;
@@ -653,8 +659,6 @@ a.animated-button.thar-three:before {
 
   transition: 0.5s;
 }
-
-
 
 .container1 .card1 .box {
   position: absolute;
@@ -1103,13 +1107,13 @@ a.animated-button.thar-three:before {
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .container5 {
-  background-color:transparent;
+  background-color: transparent;
 
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  border-radius:10px;
+  border-radius: 10px;
   margin: 0 -3rem 2rem;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -1150,37 +1154,38 @@ a.animated-button.thar-three:before {
   opacity: 1;
 }
 .container5 .list5 .num {
+  /* position: absolute; */
+  left: 1rem;
   padding: 0.5rem 2rem;
-  width:100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   transition: 0.25s;
-  border:1px solid #000;
-  border-radius:15px;
-  margin-bottom:5px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  margin-bottom: 5px;
   background-color: #f0bc1d;
 }
-.container5 .list5 .num:nth-child(0):before {
+/* .container5 .list5 .num:nth-child(0):before {
   content: "0";
   font-size: 4rem;
   font-weight: bold;
   color: #000;
   width: 2rem;
-
   transition: 0.25s;
-}
+} */
 .ico {
   font-size: 15px;
   letter-spacing: 20px;
 }
 .container5 .list5 .num:nth-child(1):before {
   content: "\203A";
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
   color: #000;
   width: 2rem;
-  opacity: 0.05;
+  opacity: 1;
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(2):before {
@@ -1189,7 +1194,7 @@ a.animated-button.thar-three:before {
   font-weight: bold;
   color: #000;
   width: 2rem;
-  opacity: 0.05;
+  opacity: 1;
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(3):before {
@@ -1198,7 +1203,7 @@ a.animated-button.thar-three:before {
   font-weight: bold;
   color: #000;
   width: 2rem;
-  opacity: 0.05;
+  opacity: 1;
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(4):before {
@@ -1207,7 +1212,7 @@ a.animated-button.thar-three:before {
   font-weight: bold;
   color: #000;
   width: 2rem;
-  opacity: 0.05;
+  opacity: 1;
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(5):before {
@@ -1216,7 +1221,7 @@ a.animated-button.thar-three:before {
   font-weight: bold;
   color: #000;
   width: 2rem;
-  opacity: 0.05;
+  opacity: 1;
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(6):before {
@@ -1225,7 +1230,7 @@ a.animated-button.thar-three:before {
   font-weight: bold;
   color: #000;
   width: 2rem;
-  opacity: 0.05;
+  opacity: 1;
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(7):before {
@@ -1234,7 +1239,7 @@ a.animated-button.thar-three:before {
   font-weight: bold;
   color: #000;
   width: 2rem;
-  opacity: 0.05;
+  opacity: 1;
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(8):before {
@@ -1243,7 +1248,7 @@ a.animated-button.thar-three:before {
   font-weight: bold;
   color: #000;
   width: 2rem;
-  opacity: 0.05;
+  opacity: 1;
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(9):before {
@@ -1252,7 +1257,7 @@ a.animated-button.thar-three:before {
   font-weight: bold;
   color: #000;
   width: 2rem;
-  opacity: 0.05;
+  opacity: 1;
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(10):before {
@@ -1261,7 +1266,7 @@ a.animated-button.thar-three:before {
   font-weight: bold;
   color: #000;
   width: 2rem;
-  opacity: 0.05;
+  opacity: 1;
   transition: 0.25s;
 }
 .container5 .list5 .num:nth-child(11):before {
@@ -1270,13 +1275,13 @@ a.animated-button.thar-three:before {
   font-weight: bold;
   color: #000;
   width: 2rem;
-  opacity: 0.05;
+  opacity: 1;
   transition: 0.25s;
 }
 .container5 .list5 .num h3 {
   position: relative;
-  left: -1.5rem;
-  color:black;
+  left: 1.2rem;
+  color: black;
   font-size: 15px;
   transition: 0.25s;
 }
@@ -1288,9 +1293,7 @@ a.animated-button.thar-three:before {
   opacity: 0.7;
 }
 .container5 .list5 .num:hover h3 {
-  left: 1rem;
-  color:white;
-
+  color: white;
 }
 .message5 {
   color: #fff;

@@ -9,7 +9,7 @@ import { GiBreakingChain } from "react-icons/gi";
 import { Row, Col } from "react-bootstrap";
 import Process from "./Process/Process";
 import Modal_F from "./Franchise_modal/Modal_F";
-
+import "./Franchise.scss";
 const FranchiseUpdated = () => {
   const [active, setActive] = useState("home");
 
@@ -136,7 +136,7 @@ const FranchiseUpdated = () => {
                       <Col lg={6} className="madhubas">
                         <GiPuzzle size={50} />
                         <br />
-                        1.Strong commitment and relentless determination to
+                        1. Strong commitment and relentless determination to
                         succeed.
                         <br />
                       </Col>
@@ -145,7 +145,7 @@ const FranchiseUpdated = () => {
                       <Col sm={12} lg={6} className="madhubas">
                         <GrStatusGood size={50} className="white-icons" />
                         <br />
-                        2.Share our mission and vision, and be innovative.
+                        2. Share our mission and vision, and be innovative.
                         <br />
                       </Col>
                       <Col sm={12} lg={6} className="madhubas">
@@ -255,51 +255,53 @@ const FranchiseUpdated = () => {
                   Franchise Benefits
                 </h3>
                 <div className="what">
-                  <div class="container5">
-                    <div class="list5">
-                      <Row>
-                        <Col>
-                          <div class="num">
-                            <h3>Powerful Brand Association</h3>
+                  <div class="container11">
+                    <div class="wrapper11">
+                      <ul class="sessions11">
+                        <li className="li-list">
+                          <div class="time11">Powerful Brand Association</div>
+                        </li>
+                        <li className="li-list">
+                          <div class="time11">A to Z Product Supply</div>
+                        </li>
+                        <li className="li-list">
+                          <div class="time11">Manpower Guarantee</div>
+                        </li>
+                        <li className="li-list">
+                          <div class="time11">
+                            Advertising and Marketing Programs
                           </div>
-                          <div class="num">
-                            <h3> A to Z Product Supply</h3>
+                        </li>
+                        <li className="li-list">
+                          <div class="time11">
+                            Not dependent on Skilled labor
                           </div>
-                          <div class="num">
-                            <h3>Manpower Guarantee</h3>
+                        </li>
+                        <li className="li-list">
+                          <div class="time11">
+                            Centralized Supply – Uniform Taste and Quality
                           </div>
-
-                          <div class="num">
-                            <h3>Advertising and Marketing Programs</h3>
+                        </li>
+                        <li className="li-list">
+                          <div class="time11">New Products & Development</div>
+                        </li>
+                        <li className="li-list">
+                          <div class="time11">
+                            Site Selection & Development Assistance{" "}
                           </div>
-
-                          <div class="num">
-                            <h3>Not dependent on Skilled labor</h3>
+                        </li>
+                        <li className="li-list">
+                          <div class="time11">
+                            Operational & Management Support{" "}
                           </div>
-                          <div class="num">
-                            <h3>
-                              Centralized Supply – Uniform Taste and Quality
-                            </h3>
-                          </div>
-                        </Col>
-                        <Col>
-                          <div class="num">
-                            <h3>New Products & Development</h3>
-                          </div>
-                          <div class="num">
-                            <h3>Site Selection & Development Assistance</h3>
-                          </div>
-                          <div class="num">
-                            <h3>Operational & Management Support</h3>
-                          </div>
-                          <div class="num">
-                            <h3>Low investment; High Margins</h3>
-                          </div>
-                          <div class="num">
-                            <h3>Accounts & Control System</h3>
-                          </div>
-                        </Col>
-                      </Row>
+                        </li>
+                        <li className="li-list">
+                          <div class="time11">Low investment; High Margins</div>
+                        </li>
+                        <li className="li-list">
+                          <div class="time11">Accounts & Control System</div>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>

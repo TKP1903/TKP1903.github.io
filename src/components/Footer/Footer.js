@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer-content">
       <h3 className="footer-text">
-        Copyright © 2019 Atti Square. All Rights Reserved{" "}
+        Copyright © 2021 Atti Square. All Rights Reserved{" "}
         <i class="fa fa-youtube-play" aria-hidden="true"></i>
       </h3>
       <ul className="social">

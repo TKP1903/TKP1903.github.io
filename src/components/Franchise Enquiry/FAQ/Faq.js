@@ -55,19 +55,19 @@ const Faq = () => {
             </button>
             <div class="accordion-content">
               <p>
-                At AttiSquare,Our Prime aim is treat the customers of all
+                At AttiSquare,Our Prime aim is to treat the customers of all
                 category, Our Menu is designed meticulously in order to give the
-                best price.All our menu are been priced Pocket friendly. Atti
-                Square isanunique and innovative quick service restaurant
+                best price.All our menu has been priced Pocket friendly. Atti
+                Square is an unique and innovative quick service restaurant
                 concept that brings the Lebanese traditional Shawarma to the
-                modern day lifestyle in a genuine and tasty way.
+                modern day lifestyle in genuine and tasty way.
               </p>
               <p>
-                Atti SquareShawarma offers a variety of choices and ability to
+                Atti Square Shawarma offers a variety of choices and ability to
                 customize high-end quality Shawarma.
               </p>
               <p>
-                It’ssuccess is due to many factors including cleanliness,
+                It’s success is due to many factors including cleanliness,
                 authenticity, consistency and modernity in quality and service.
                 Atti Square targets food conscious customers who are looking for
                 the taste, healthiness, quality and value of their meal.
@@ -78,8 +78,8 @@ const Faq = () => {
                 return on investment and value growth in the industry.
               </p>
               <p>
-                The size of a typicalAtti Square is between 100 sqft to 500 sqft
-                with a footfall of 150 to 300 customers per day.
+                The size of a typical Atti Square is between 100 sqft to 500
+                sqft with a footfall of 150 to 300 customers per day.
               </p>
             </div>
           </div>
@@ -121,10 +121,7 @@ const Faq = () => {
                 Franchise fee structure may vary according to the Prototype
                 chosen. One of our Franchise expert will assist you with all
                 informations during the initial meeting. Please send your
-                enquiry to franchise@attisquare.com.Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Elementum sagittis vitae et leo
-                duis ut. Ut tortor pretium viverra suspendisse potenti.
+                enquiry to franchise@attisquare.com.
               </p>
             </div>
           </div>
@@ -201,7 +198,7 @@ const Faq = () => {
               }
             >
               <span class="accordion-title">
-                4. How to contact AttiSquar Brand for Franchise?
+                4. HOW TO CONTACT ATTISQUARE BRAND FOR FRANCHISE?
               </span>
               <span class="icon" aria-hidden="true"></span>
             </button>
@@ -241,8 +238,8 @@ const Faq = () => {
               }
             >
               <span class="accordion-title">
-                5. What is the difference between AttiSquare and other Shawarma
-                shops?{" "}
+                5. WHAT IS THE DIFFERENCE BETWEEN ATTISQUARE AND OTHER SHAWARMA
+                SHOP?{" "}
               </span>
               <span class="icon" aria-hidden="true"></span>
             </button>

@@ -97,7 +97,12 @@ header .navigation li a:hover::after {
   position: relative;
   top: 87px;
 }
-
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #f0bc1d;
+  width: 3rem;
+  height: 3rem;
+}
 .carousel-caption {
   z-index: 0 !important;
 }
@@ -183,7 +188,7 @@ h2.heading-main {
 
 @media (max-width: 425px) {
   .slider-image {
-    height: 30vh !important;
+    height: 40vh !important;
   }
   .carousel-caption h2 {
     font-size: 13px;

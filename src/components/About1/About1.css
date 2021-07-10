@@ -14,7 +14,7 @@
 .text-about {
   text-align: center;
   padding: 10%;
-  background-image: url("https://attisquare.s3.amazonaws.com/atti-images/atti-22.webp");
+  background-image: url("https://attisquare.s3.amazonaws.com/atti-images/atti-26.webp");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -22,11 +22,10 @@
 }
 
 .content-para {
-  background: rgba(255, 255, 255, 0.25);
+  background: #f0bc1d;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
   color: white;
   padding: 5%;
 }
@@ -46,6 +45,12 @@
   justify-content: center;
   padding: 5%;
 }
+h2.why {
+  color: black;
+}
+p.why-para {
+  color: #000;
+}
 
 .parent-title {
   padding: 1%;
@@ -57,7 +62,7 @@
 .child-content {
   width: 400px;
   margin-right: 12%;
-  text-align: justify;
+  text-align: center;
 }
 .about1-title {
   color: white;
@@ -75,7 +80,7 @@
 .child2-content {
   width: 400px;
   margin-left: 12%;
-  text-align: justify;
+  text-align: center;
 }
 
 .about2-title {

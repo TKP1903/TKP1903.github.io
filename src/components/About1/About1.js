@@ -45,19 +45,15 @@ const About1 = () => {
       <div className="parent2">
         <div className="text-about">
           <div className="content-para">
-            <h2 className="about1-title ">Why we Stand Apart</h2>
-            <p>
-              We were the first to serve{" "}
-              <span>
-                Shawarmas in Chennai at an affordable cost of just Rs.49 with a
-                complimentary juice.
-              </span>{" "}
-              This captured the interest of lots of people. In the beginning,
-              they thought it was just a promotional offer that would only last
-              a few weeks. But Atti Square stood by its promise and surprised
-              the people by continuing the program to date. By this maneuver,
-              Atti Square earned the respect of the people and became an instant
-              favorite.
+            <h2 className="about1-title why">Why we Stand Apart</h2>
+            <p className="why-para">
+              We were the first to serve Shawarmas in Chennai at an affordable
+              cost of just Rs.49 with a complimentary juice. This captured the
+              interest of lots of people. In the beginning, they thought it was
+              just a promotional offer that would only last a few weeks. But
+              Atti Square stood by its promise and surprised the people by
+              continuing the program to date. By this maneuver, Atti Square
+              earned the respect of the people and became an instant favorite.
               <br />
               <br />
             </p>

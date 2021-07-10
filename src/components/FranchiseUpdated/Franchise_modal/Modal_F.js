@@ -16,24 +16,12 @@ const Modal_F = () => {
                 />
               </div>
               <p class="franchise__modal--title">Stand alone QSR</p>
-              <p class="franchise__modal--text">Area - 150 to 200 sq.ft </p>
+              <p class="franchise__modal--title">Area - Above 200 sq.ft </p>
             </div>
           </Col>
           {/* <!-- end card --> */}
           {/* <!-- card --> */}
-          <Col>
-            <div class="franchise__modal--card">
-              <div class="franchise__modal--icon">
-                <img
-                  src="https://drive.google.com/uc?export=view&id=1EnebAJOtkdgffvtnikSZDQVIA863Hq4t"
-                  alt="Stand Alone Takeaway"
-                />
-              </div>
-              <p class="franchise__modal--title">Elite</p>
-              <p class="franchise__modal--text">Area - Above 200 sq.ft</p>
-            </div>
-            {/* <!-- end card --> */}
-          </Col>
+
           {/* <!-- card --> */}
           <Col>
             <div class="franchise__modal--card">
@@ -44,7 +32,7 @@ const Modal_F = () => {
                 />
               </div>
               <p class="franchise__modal--title">Kiosk</p>
-              <p class="franchise__modal--text">Area - 70 to 120 sq.ft </p>
+              <p class="franchise__modal--title">Area - 70 to 120 sq.ft </p>
             </div>
           </Col>
           {/* <!-- end card --> */}

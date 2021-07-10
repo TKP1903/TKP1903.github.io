@@ -29,48 +29,7 @@ const images = [
     imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-4.webp",
     tag: "Food",
   },
-  {
-    id: "5",
-    imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-5.webp",
-    tag: "Food",
-  },
 
-  {
-    id: "6",
-    imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-6.webp",
-    tag: "Food",
-  },
-
-  {
-    id: "7",
-    imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-7.webp",
-    tag: "Food",
-  },
-  {
-    id: "8",
-    imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-8.webp",
-    tag: "Food",
-  },
-  {
-    id: "9",
-    imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-9.webp",
-    tag: "Food",
-  },
-  {
-    id: "10",
-    imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-10.webp",
-    tag: "Food",
-  },
-  {
-    id: "11",
-    imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-11.webp",
-    tag: "Food",
-  },
-  {
-    id: "12",
-    imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-12.webp",
-    tag: "Food",
-  },
   {
     id: "13",
     imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-13.webp",
@@ -94,16 +53,6 @@ const images = [
   {
     id: "17",
     imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-17.webp",
-    tag: "Food",
-  },
-  {
-    id: "18",
-    imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-18.webp",
-    tag: "Food",
-  },
-  {
-    id: "19",
-    imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-19.webp",
     tag: "Food",
   },
   {
@@ -155,6 +104,36 @@ const images = [
     id: "30",
     imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-30.webp",
     tag: "Food",
+  },
+  {
+    id: "31",
+    imageName: "https://www.youtube.com/embed/0VSdf2fECOI",
+    tag: "Videos",
+  },
+  {
+    id: "32",
+    imageName: "https://www.youtube.com/embed/41RHck26nnY",
+    tag: "Videos",
+  },
+  {
+    id: "33",
+    imageName: "https://www.youtube.com/embed/u2GjqaBnarw",
+    tag: "Videos",
+  },
+  {
+    id: "34",
+    imageName: "https://www.youtube.com/embed/1DesRoAmwe0",
+    tag: "Videos",
+  },
+  {
+    id: "35",
+    imageName: "https://www.youtube.com/embed/Ythx7fKXnd0",
+    tag: "Videos",
+  },
+  {
+    id: "36",
+    imageName: "https://www.youtube.com/embed/_Q4fgUUS9DA",
+    tag: "Videos",
   },
 ];
 
