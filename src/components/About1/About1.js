@@ -4,7 +4,9 @@ import "./About1.css";
 const About1 = () => {
   return (
     <div className="parent">
-      <h1 className="parent-title page-title">About Us</h1>
+      <div className="parent--title">
+        <h1 className="parent-title page-title">About Us</h1>
+      </div>
       <div className="parent1">
         <div className="child-content">
           <h2 className="about1-title">Who We Are</h2>

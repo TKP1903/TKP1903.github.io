@@ -55,9 +55,9 @@ const Faq = () => {
             </button>
             <div class="accordion-content">
               <p>
-                At AttiSquare,Our Prime aim is to treat the customers of all
+                At Atti Square,Our Prime aim is to treat the customers of all
                 category, Our Menu is designed meticulously in order to give the
-                best price.All our menu has been priced Pocket friendly. Atti
+                best price. All our menu has been priced Pocket friendly. Atti
                 Square is an unique and innovative quick service restaurant
                 concept that brings the Lebanese traditional Shawarma to the
                 modern day lifestyle in genuine and tasty way.
@@ -73,7 +73,7 @@ const Faq = () => {
                 the taste, healthiness, quality and value of their meal.
               </p>
               <p>
-                AttiSquare objective is to expand nationally and globally while
+                Atti Square objective is to expand nationally and globally while
                 preserving its originality and quality and to achieve optimal
                 return on investment and value growth in the industry.
               </p>
@@ -198,7 +198,7 @@ const Faq = () => {
               }
             >
               <span class="accordion-title">
-                4. HOW TO CONTACT ATTISQUARE BRAND FOR FRANCHISE?
+                4. HOW TO CONTACT ATTI SQUARE BRAND FOR FRANCHISE?
               </span>
               <span class="icon" aria-hidden="true"></span>
             </button>
@@ -238,7 +238,7 @@ const Faq = () => {
               }
             >
               <span class="accordion-title">
-                5. WHAT IS THE DIFFERENCE BETWEEN ATTISQUARE AND OTHER SHAWARMA
+                5. WHAT IS THE DIFFERENCE BETWEEN ATTI SQUARE AND OTHER SHAWARMA
                 SHOP?{" "}
               </span>
               <span class="icon" aria-hidden="true"></span>
@@ -290,42 +290,42 @@ const Faq = () => {
             </button>
             <div class="accordion-content">
               <p>
-                In addition to field support, members of Atti Squa r e
+                In addition to field support, members of Atti Square
                 organization will provide the services listed below:
               </p>
               <ul>
                 <li>
-                  Operational Support -- Atti Square Management will provide
+                  Operational Support - Atti Square Management will provide
                   ongoing training and support in many areas critical to the
-                  success of the franchisee's business, including unit
-                  operations and maintenance, customer-service techniques,
-                  product ordering, suggested pricing guidelines, and
-                  administrative procedures.
+                  success of the franchise's business, including unit operations
+                  operations mtce, customer-service techniques, product product
+                  d suggested pricing guidelines, and adminis
+                  administrativetrative
                 </li>
                 <li>
-                  Site Selection -- Prior to approving a site for Atti Square
+                  Site Selection - Prior to approving a site for Atti Square
                   outlet, Atti Square Management will provide franchisees with
                   clear guidelines for a suitable location. Atti Square will
                   require franchisees to follow these instructions to ensure
                   that an appropriate site is located.
                 </li>
                 <li>
-                  Marketing Support -- Atti Square Management coordinates
+                  Marketing Support - Atti Square Management coordinates
                   development of advertising materials and strategies for the
                   benefit of all members of the franchise network.{" "}
                 </li>
                 <li>
-                  Accounting/Audit/Legal -- Reporting directly to
-                  administration, this department is responsible for the
-                  financial and legal oversight of franchisees.
+                  Accounting/Audit/Legal - Reporting directly to administration,
+                  administration, ps responsible for the financial and l
+                  financial and legal fisees.
                 </li>
                 <li>
-                  Ongoing Research and Development -- Atti Square Management
+                  Ongoing Research and Development - Atti Square Management
                   continues to research methods and techniques for franchise
                   operations that enhance unit-level profitability.{" "}
                 </li>
                 <li>
-                  Overall Program Oversight -- Atti Square Management provides
+                  Overall Program Oversight - Atti Square Management provides
                   the overall coordination and planning for the Atti Square
                   franchise system.
                 </li>

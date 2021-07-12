@@ -38,12 +38,12 @@ const images = [
   {
     id: "14",
     imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-14.webp",
-    tag: "Food",
+    tag: "Outlet",
   },
   {
     id: "15",
     imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-15.webp",
-    tag: "Food",
+    tag: "Outlet",
   },
   {
     id: "16",
@@ -80,11 +80,7 @@ const images = [
     imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-24.webp",
     tag: "Food",
   },
-  {
-    id: "26",
-    imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-26.webp",
-    tag: "Food",
-  },
+
   {
     id: "27",
     imageName: "https://attisquare.s3.amazonaws.com/atti-images/atti-27.webp",
@@ -143,7 +139,7 @@ function Gallery() {
 
   useEffect(() => {
     tag === "all"
-      ? setFilteredImages(images)
+      ? setFilteredImages(images.filter((image) => image.tag !== "Videos"))
       : setFilteredImages(images.filter((image) => image.tag === tag));
   }, [tag]);
 

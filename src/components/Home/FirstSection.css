@@ -16,7 +16,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 70px;
+  padding: 20px 30px;
   display: flex !important;
   justify-content: space-between;
   align-items: center;
@@ -104,6 +104,9 @@ header .navigation li a:hover::after {
   height: 3rem;
 }
 .carousel-caption {
+  position: relative;
+  top: 90px;
+
   z-index: 0 !important;
 }
 h2.heading-main {
@@ -124,16 +127,15 @@ h2.heading-main {
   header .navigation {
     display: none;
   }
-  .as {
-    display: none;
-  }
+
   .slider-image {
     height: 50vh !important;
   }
 
   .carousel-caption {
     z-index: 1;
-    bottom: 8%;
+    padding: 0;
+    margin-top: -100px;
   }
   header .navigation.active {
     position: fixed;
@@ -168,6 +170,7 @@ h2.heading-main {
     background-repeat: no-repeat;
     background-position: center;
     z-index: 10000;
+    transition: 0.3s;
   }
 
   .toggle.active {
@@ -177,6 +180,7 @@ h2.heading-main {
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.3s;
   }
   .content .imgBox img {
     width: 100%;
@@ -187,6 +191,10 @@ h2.heading-main {
 }
 
 @media (max-width: 425px) {
+  .carousel {
+    top: 70px;
+  }
+
   .slider-image {
     height: 40vh !important;
   }
@@ -195,5 +203,14 @@ h2.heading-main {
   }
   .carousel-caption p {
     font-size: 11px;
+  }
+  .a1 {
+    height: 26px;
+    width: 40px;
+  }
+
+  .a2 {
+    height: 30px;
+    width: 70px;
   }
 }

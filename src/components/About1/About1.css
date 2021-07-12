@@ -57,7 +57,14 @@ p.why-para {
   z-index: 5;
   color: white;
   margin-top: 8.7rem;
+  margin-bottom: 0;
   text-align: center;
+}
+.parent--title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
 }
 .child-content {
   width: 400px;
@@ -123,7 +130,7 @@ p.why-para {
     width: 300px;
   }
   .parent-title {
-    margin-top: 8rem;
+    margin-top: 7rem;
     padding-top: 5%;
   }
 }

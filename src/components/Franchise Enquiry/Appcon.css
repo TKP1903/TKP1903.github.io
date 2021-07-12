@@ -30,3 +30,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 425px) {
+  .faq {
+    margin-top: 70px;
+  }
+}

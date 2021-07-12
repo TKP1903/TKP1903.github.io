@@ -12,6 +12,12 @@
 
   /*box-shadow: 10px 10px #ccc,-10px 20px #ddd;*/
 }
+.page--title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 .fran_head {
   color: #f0bc1d;
 }
@@ -1310,4 +1316,10 @@ a.animated-button.thar-three:before {
 .conp {
   padding: 3%;
   font-weight: 200;
+}
+
+@media (max-width: 425px) {
+  .board {
+    margin-top: 76px;
+  }
 }

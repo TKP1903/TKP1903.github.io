@@ -1,9 +1,6 @@
 import React from "react";
 import "./Contd.css";
 import { Row, Col } from "react-bootstrap";
-//import fb from "../Home/images/facebook.png";
-//import insta from "../Home/images/instagram.png";
-//import youtube from "../Home/images/PngItem_1064507.png";
 
 const Contd = () => {
   return (
@@ -25,6 +22,17 @@ const Contd = () => {
                   No 722, 558, Thiruvottiyur High Rd, Korukkupet, Old
                   Washermanpet, Chennai, Tamil Nadu 600021
                   <br />
+                  <br />
+                  No 135, Mosque St, near Inayath Mahal, Pallavaram, Chennai,
+                  Tamil Nadu 600043
+                  <br />
+                  <br />
+                  1/178, East coast road,Palavakkam, East Coast Rd, Before, Anna
+                  Salai, signal, Chennai, Tamil Nadu 600041
+                  <br />
+                  <br />
+                  No 1, Velachery Rd, Vijaya Nagar, Velachery, Chennai, Tamil
+                  Nadu 600042
                 </p>
               </div>
             </div>
@@ -33,7 +41,7 @@ const Contd = () => {
         <Col md={6}>
           <div className="map">
             <iframe
-              src="https://www.google.com/maps/d/u/0/embed?mid=133OjlGT9hih0ugXj3svesIQrwVK6FHcE"
+              src="https://www.google.com/maps/d/embed?mid=1ZLUIk5G3B5RH7OF4_bCt-hqAjPPTW4Pc&hl=en"
               title="google-map"
             ></iframe>
           </div>

@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1%;
 }
 .hero-text {
   /* color: #febc1d; */
@@ -79,6 +80,18 @@ button {
 @media (max-width: 991px) {
   .req-cards {
     flex-direction: column;
+  }
+  .job-req {
+    top: 67px;
+  }
+  /* .work {
+    top: 67px;
+  } */
+  .body1 {
+    top: 67px !important;
+  }
+  .work-hero {
+    top: 67px;
   }
   .col {
     display: flex;

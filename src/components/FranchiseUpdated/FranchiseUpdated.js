@@ -18,7 +18,9 @@ const FranchiseUpdated = () => {
       <div>
         <div className="row">
           <div className="board">
-            <h2 className="pag page-title">Franchise</h2>
+            <div className="page--title">
+              <h2 className="pag page-title">Franchise</h2>
+            </div>
             <div className="board-inner">
               <ul className="nav nav-tabs" id="myTab">
                 <div className="liner"></div>
@@ -191,7 +193,7 @@ const FranchiseUpdated = () => {
                   <div class="container5">
                     <div class="list5">
                       <Row>
-                        <Col>
+                        <Col sm={12}>
                           <div class="num">
                             <h3>
                               Proper planning and execution is prioritized
@@ -216,7 +218,7 @@ const FranchiseUpdated = () => {
                             </h3>
                           </div>
                         </Col>
-                        <Col>
+                        <Col sm={12}>
                           <div class="num">
                             <h3>
                               Vendor Management and Inventory management are
