@@ -111,7 +111,7 @@ header .navigation li a:hover::after {
   height: 3rem;
 }
 .carousel-caption {
-  position: relative;
+  position: absolute;
   top: 90px;
 
   z-index: 0 !important;
