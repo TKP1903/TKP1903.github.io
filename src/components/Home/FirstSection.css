@@ -93,6 +93,13 @@ header .navigation li a:hover::after {
   border: 1px solid #f0bc1d !important;
   color: aliceblue !important;
 }
+
+/* .textBox {
+  position: relative;
+  top: -300px;
+  left: -64px;
+} */
+
 .carousel {
   position: relative;
   top: 87px;
