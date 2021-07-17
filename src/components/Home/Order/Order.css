@@ -1,0 +1,83 @@
+.order-section {
+  position: relative;
+  top: 87px;
+  padding: 5%;
+}
+
+.content-online {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.div-text h5 {
+  font-size: 30px;
+}
+.div-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+.zomato {
+  color: #ec4654;
+}
+.swiggy {
+  color: #fc8019;
+}
+.div-text button {
+  height: 50px;
+}
+
+.button-zomato {
+  background-color: #ec4654 !important;
+  border: none;
+}
+.button-zomato:hover {
+  background-color: transparent !important;
+  border: #ec4654 1px solid !important;
+  color: #000;
+}
+
+.button-swiggy {
+  background-color: #fc8019 !important;
+  border: none;
+}
+.button-swiggy:hover {
+  background-color: transparent !important;
+  border: #fc8019 1px solid !important;
+  color: #000;
+}
+
+.link-hotel {
+  color: #000 !important;
+}
+.link-hotel:hover {
+  text-decoration: none !important;
+}
+
+@media (max-width: 991px) {
+  .content-online {
+    width: 100%;
+  }
+  .div-text {
+    width: 150px;
+    height: 150px;
+    font-size: 15px;
+  }
+  .order-section {
+    flex-direction: column;
+  }
+  .party-img {
+    width: 100%;
+    height: auto;
+  }
+  .div-text h5 {
+    font-size: 14px;
+  }
+
+  .div-text button {
+    height: 40px;
+  }
+}

@@ -1,0 +1,38 @@
+.faq {
+  margin-top: 87px;
+  width: auto;
+  overflow-x: hidden;
+}
+
+.faqform {
+  padding: 0 50px;
+  width: 50%;
+  background: rgba(0, 0, 0);
+  border-radius: 5px;
+}
+.faqaccordian {
+  padding: 0 30px;
+  width: 50%;
+  border: none;
+}
+@media (max-width: 991px) {
+  .faq {
+    margin-top: 86px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .faqform {
+    width: 100%;
+  }
+  .faqaccordian {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .faq {
+    margin-top: 70px;
+  }
+}

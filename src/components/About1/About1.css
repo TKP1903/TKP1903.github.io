@@ -1,0 +1,136 @@
+.parent {
+  background: #262626;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+  height: 50px;
+  background-color: #f0bc1d;
+  border: none;
+}
+
+.text-about {
+  text-align: center;
+  padding: 10%;
+  background-image: url("https://attisquare.s3.amazonaws.com/atti-images/atti-26.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content-para {
+  background: url("./atti-back1.png");
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  color: white;
+  padding: 5%;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: #f0bc1d 1px solid;
+}
+
+.parent1,
+.parent3 {
+  background: url("./atti-back1.png");
+  margin-top: 3rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+h2.why {
+  color: black;
+}
+p.why-para {
+  color: #000;
+}
+
+.parent-title {
+  padding: 1%;
+  z-index: 1;
+  color: white;
+  margin-top: 8.7rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+.parent--title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+.child-content {
+  width: 400px;
+  margin-right: 12%;
+  text-align: center;
+}
+.about1-title {
+  color: white;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+#side-image1 {
+  width: 500px;
+}
+#side-image2 {
+  width: 500px;
+}
+
+.child2-content {
+  width: 400px;
+  margin-left: 12%;
+  text-align: center;
+}
+
+.about2-title {
+  color: white;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.highlighter {
+  background-color: #262626;
+  color: #f0bc1d;
+  padding: 5px;
+  line-height: 1.5;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .parent1 {
+    flex-direction: column;
+  }
+  .parent3 {
+    flex-direction: column-reverse;
+  }
+
+  .child-content {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .child2-content {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  #side-image1 {
+    width: 300px;
+  }
+  #side-image2 {
+    width: 300px;
+  }
+  .parent-title {
+    margin-top: 7rem;
+    padding-top: 5%;
+  }
+}

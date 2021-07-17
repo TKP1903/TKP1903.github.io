@@ -1,0 +1,143 @@
+.work-container {
+  margin-top: 85px;
+}
+.work-hero {
+  position: relative;
+  top: 87px;
+  width: 100%;
+  height: max-content;
+  background: #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+}
+.hero-text {
+  /* color: #febc1d; */
+  color: lightcyan;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.job-req {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5%;
+  background-color: #f0bc1d;
+  color: rgb(79, 82, 79);
+  position: relative;
+  top: 87px;
+}
+.job-req h3 {
+  color: rgb(0, 0, 0);
+}
+.article-section {
+  width: 700px;
+}
+.row {
+  display: flex;
+}
+.req-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  padding: 5%;
+  margin: 5%;
+}
+
+.req-card h4 {
+  color: brown;
+}
+
+.read-more-btn {
+  display: inline-block;
+  background-color: #262626;
+  padding: 2%;
+  color: white;
+  border: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+  border-bottom: none;
+  background-color: #262626;
+  color: #fff;
+}
+/* #contact_sujet {
+  color: black;
+} */
+.input_wrapper input {
+  color: black;
+}
+@media (max-width: 991px) {
+  .req-cards {
+    flex-direction: column;
+  }
+  .job-req {
+    top: 67px;
+  }
+  /* .work {
+    top: 67px;
+  } */
+  .body1 {
+    top: 67px !important;
+  }
+  .work-hero {
+    top: 67px;
+  }
+  .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6% auto;
+  }
+  .article-section {
+    width: 100%;
+  }
+}
+
+.body1 {
+  padding: 2%;
+  background: url("./Work.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: 87px;
+}
+
+#contact {
+  padding: 3%;
+  margin: auto 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-section {
+  background-color: #f0bc1d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+  box-shadow: 1px 1px 0px 11px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 0px 11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 0px 11px rgba(0, 0, 0, 0.75);
+}
+
+.sub-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 70px;
+}

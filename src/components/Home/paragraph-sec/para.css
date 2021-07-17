@@ -1,0 +1,39 @@
+.text a {
+  padding: 8px 20px;
+  background: #f0bc1d;
+  color: #161616;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1;
+  text-decoration: none;
+  position: relative;
+  bottom: -10px;
+}
+
+.content-para h2 {
+  color: white;
+}
+.para-btn:hover {
+  color: #f0bc1d;
+  background-color: #000;
+}
+
+.text {
+  text-align: center;
+  padding: 10%;
+  background-image: url("../images/_HVD1247_1-min.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.content-para {
+  background-color: rgba(53, 49, 49, 0.5);
+  padding: 25px;
+  z-index: 2;
+}
+
+.content-para p {
+  padding-bottom: 10px;
+  color: white;
+}

@@ -1,0 +1,22 @@
+* {
+  font-family: "arvo";
+  scroll-behavior: smooth;
+  /* font-size: 23px; */
+}
+
+::-webkit-scrollbar {
+  background-color: black;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #f0bc1d);
+  border-radius: 10px;
+}
+.page-title {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #f0bc1d;
+}

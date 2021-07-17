@@ -1,0 +1,112 @@
+.customer {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  color: #f0bc1d;
+}
+
+.testimonial-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://attisquare.s3.amazonaws.com/atti-images/atti-23.webp")
+    center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px auto;
+  height: 70vh;
+  color: rgb(0, 0, 0);
+}
+
+.test-content {
+  background: #f0bc1d;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  padding: 40px;
+}
+.test-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.test-img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.test-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.test-content-box {
+  margin: 20px auto;
+}
+.test-content-box p {
+  text-align: center;
+}
+
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-left {
+  background: none;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  display: none;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 486px) {
+  .test-text {
+    flex-direction: column;
+  }
+  .test-text-box {
+    margin: 0;
+  }
+  .test-content-box {
+    font-size: small;
+  }
+  .test-content {
+    width: auto;
+    padding: 10px;
+  }
+  .test-text-box h3 {
+    font-size: 18px;
+  }
+  .testimonial-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://attisquare.s3.amazonaws.com/atti-images/atti-23.webp")
+      center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 20px;
+    height: 70vh;
+    color: rgb(0, 0, 0);
+  }
+  .customer {
+    font-size: 20px;
+    margin: 15px;
+  }
+}
