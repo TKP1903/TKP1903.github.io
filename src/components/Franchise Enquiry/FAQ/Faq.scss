@@ -26,7 +26,7 @@ $lightgray: #e5e5e5;
     width: 100%;
     padding: 1em 0;
     color: #7288a2;
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     font-weight: 400;
     border: none;
     background: none;
@@ -85,6 +85,7 @@ $lightgray: #e5e5e5;
     + .accordion-content {
       opacity: 1;
       max-height: 30em;
+      font-size: 19px !important;
       transition: all 200ms linear;
       will-change: opacity, max-height;
     }
@@ -93,16 +94,17 @@ $lightgray: #e5e5e5;
     opacity: 0;
     max-height: 0;
     overflow: hidden;
+    font-size: 1.5rem;
     transition: opacity 200ms linear, max-height 200ms linear;
     will-change: opacity, max-height;
   }
   p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 300;
     margin: 2em 0;
   }
   li {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 300;
     margin: 2em 0;
   }

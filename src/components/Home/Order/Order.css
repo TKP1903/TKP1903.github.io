@@ -1,7 +1,9 @@
 .order-section {
+  background: #000;
   position: relative;
-  top: 87px;
-  padding: 5%;
+  top: 70px;
+  padding: 4%;
+  color: rgb(255, 255, 255);
 }
 
 .content-online {
@@ -18,7 +20,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 60px;
 }
 .zomato {
   color: #ec4654;
@@ -37,7 +38,6 @@
 .button-zomato:hover {
   background-color: transparent !important;
   border: #ec4654 1px solid !important;
-  color: #000;
 }
 
 .button-swiggy {
@@ -47,11 +47,10 @@
 .button-swiggy:hover {
   background-color: transparent !important;
   border: #fc8019 1px solid !important;
-  color: #000;
 }
 
 .link-hotel {
-  color: #000 !important;
+  color: #fff !important;
 }
 .link-hotel:hover {
   text-decoration: none !important;

@@ -1,5 +1,10 @@
+.customer-reviews {
+  background-color: black;
+}
+
 .customer {
-  margin: 40px;
+  margin: 0;
+  padding: 25px;
   display: flex;
   justify-content: center;
   color: #f0bc1d;
@@ -20,7 +25,9 @@
 }
 
 .test-content {
-  background: #f0bc1d;
+  background: url("../../About1/atti-back1.png");
+  background-position: center;
+
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
@@ -107,6 +114,5 @@
   }
   .customer {
     font-size: 20px;
-    margin: 15px;
   }
 }

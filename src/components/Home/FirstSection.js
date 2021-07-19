@@ -9,10 +9,10 @@ const FirstSection = () => {
       <Carousel.Item>
         <img
           className="d-block w-100 slider-image"
-          src="https://attisquare.s3.amazonaws.com/atti-images/atti-27.webp"
+          src="https://attisquare.s3.amazonaws.com/atti-images/c+(1).webp"
           alt="First slide"
         />
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <div className="content">
             <div className="textBox">
               <h2 className="heading-main">
@@ -23,12 +23,12 @@ const FirstSection = () => {
               </h4>
             </div>
           </div>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100 slider-image"
-          src="https://attisquare.s3.amazonaws.com/atti-images/atti-21.webp"
+          src="https://attisquare.s3.amazonaws.com/atti-images/c2+(2).webp"
           alt="Second slide"
         />
       </Carousel.Item>

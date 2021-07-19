@@ -1,6 +1,8 @@
 import React from "react";
 import img1 from "./Image1.png";
+import img2 from "./_HVD1170-removebg-preview.png";
 import "./About1.css";
+
 const About1 = () => {
   return (
     <div className="parent">
@@ -37,11 +39,7 @@ const About1 = () => {
           </p>
         </div>
         <div className="child-img">
-          <img
-            id="side-image1"
-            src={img1}
-            alt=""
-          />
+          <img id="side-image1" src={img1} alt="" />
         </div>
       </div>
       <div className="parent2">
@@ -64,11 +62,7 @@ const About1 = () => {
       </div>
       <div className="parent3">
         <div className="child-img">
-          <img
-            id="side-image2"
-            src="https://attisquare.s3.amazonaws.com/atti-images/atti-14.webp"
-            alt=""
-          />
+          <img id="side-image2" src={img2} alt="" />
         </div>
         <div className="child2-content">
           <h2 className="about2-title">How We Do It</h2>

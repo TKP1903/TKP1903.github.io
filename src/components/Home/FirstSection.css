@@ -22,7 +22,7 @@ header {
   align-items: center;
   margin: 0;
   z-index: 2;
-  background: url('./images/atti-back1.png');
+  background: url("./images/atti-back1.png");
 }
 
 header .logo {
@@ -45,11 +45,11 @@ header .navigation li a {
   display: inline-block;
   color: hsl(0, 0%, 9%);
   font-weight: 700;
-  font-size: 12px;
+  font-size: 15px;
   text-transform: uppercase;
   text-decoration: none;
   align-items: center;
-  margin-left: 20px;
+  margin-left: 15px;
   position: relative;
   padding: 1rem 0;
 }

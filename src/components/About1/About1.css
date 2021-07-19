@@ -10,12 +10,20 @@
   background-color: #f0bc1d;
   border: none;
 }
-
+.about1-content {
+  font-size: 19px;
+}
+.why-para {
+  font-size: 17px;
+}
+.about2-content {
+  font-size: 19px;
+}
 .text-about {
   text-align: center;
   padding: 10%;
-  background-image: url("https://attisquare.s3.amazonaws.com/atti-images/atti-26.webp");
-  background-attachment: fixed;
+  background-image: url("https://attisquare.s3.amazonaws.com/atti-images/atti-17.webp");
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

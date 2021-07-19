@@ -1,12 +1,14 @@
 .footer-content {
   position: relative;
-  top: 87px;
+  /* top: 87px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #000;
 }
 .footer-text {
+  color: white;
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;

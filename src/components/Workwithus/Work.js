@@ -179,7 +179,13 @@ const Work = () => {
               </p>
               <br />
               <p className="input_wrapper">
-              <input type="file" name="attachment" accept=".pdf,.doc,.zip" />
+                <input
+                  type="text"
+                  name="Resume"
+                  id="contact_sujet"
+                  placeholder="Enter your resume drive link here"
+                  required
+                />
               </p>
               <p className="textarea_wrapper">
                 <textarea

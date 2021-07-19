@@ -1,6 +1,41 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 /* written by riliwan balogun https://www.facebook.com/riliwan.rabo*/
 
+#home {
+  background-image: url("https://www.hungryforever.com/wp-content/uploads/2016/09/Shawarma-in-Chennai-1280x720.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+#profile {
+  background-image: url("https://www.archanaskitchen.com/images/archanaskitchen/1-Author/sibyl-archanaskitchen.com/Chicken_Shwarma_Recipe_.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+#settings {
+  background-image: url("https://i.ytimg.com/vi/lx-ZAmC3j4M/maxresdefault.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+#model {
+  background-image: url("https://images.alphacoders.com/109/1093442.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+#messages {
+  background-image: url("https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2017/12/01083501/KebabStreet-i.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px;
+}
 .lis-row {
   display: flex;
   justify-content: center;
@@ -8,10 +43,10 @@
 .lis-col {
   margin: 10px 35px;
 }
-.list-type2 ol{
+.list-type2 ol {
   counter-reset: li;
   list-style: none;
-  *list-style: decimal; 
+  *list-style: decimal;
 }
 @media (max-width: 991px) {
   .lis-row {
@@ -27,6 +62,7 @@
   border-radius: 20px 0 20px 0;
   background: #f0bb1dce;
   color: #444;
+  font-size: 19px;
   /* border:.3em solid #000; */
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -59,8 +95,10 @@
   width: 100%;
   margin: 90px auto;
   height: auto;
-  background: url("https://attisquare.s3.amazonaws.com/atti-images/franchise.webp")
-    no-repeat;
+
+  /* background: url("https://attisquare.s3.amazonaws.com/atti-images/franchise.webp") */
+  /* no-repeat; */
+  background-color: #000;
   background-position: center;
   background-size: cover;
 
@@ -73,7 +111,7 @@
   margin-top: 20px;
 }
 .fran_head {
-  color: #f0bc1d;
+  color: #000;
 }
 .white-icons {
   filter: invert(1);
@@ -81,9 +119,10 @@
 .fran_para,
 .points {
   color: white;
+  font-size: 19px;
 }
 .tab-title {
-  font-size: 10px;
+  font-size: 13px;
 }
 .pag {
   margin-top: 8 rem;
@@ -136,6 +175,7 @@ ul.list {
 
 .madhubas {
   margin-bottom: 25px;
+  font-size: 19px;
 }
 
 .item-points {
@@ -453,7 +493,7 @@ li::after {
     display: none;
   }
   .tab-title {
-    font-size: 7px;
+    font-size: 9px;
   }
   li::after {
     display: none;
@@ -1219,6 +1259,7 @@ a.animated-button.thar-three:before {
   padding: 0.5rem 2rem;
   width: 100%;
   display: flex;
+  font-size: 19px;
   align-items: center;
   justify-content: flex-start;
   transition: 0.25s;
@@ -1235,6 +1276,9 @@ a.animated-button.thar-three:before {
   width: 2rem;
   transition: 0.25s;
 } */
+.num {
+  font-size: 19px;
+}
 .ico {
   font-size: 15px;
   letter-spacing: 20px;

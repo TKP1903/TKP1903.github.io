@@ -122,18 +122,20 @@ const FranchiseUpdated = () => {
                 }
                 id="home"
               >
-                <h3 className="head text-center fran_head">
-                  Franchise Profile Requirements{" "}
-                </h3>
-                <p className="narrow text-center">
-                  <div className="fran_para">
-                    Atti Square believes in providing excellent business
-                    opportunities to entrepreneurs through franchises. We expect
-                    them to have the following criteria.
-                  </div>
-                  <br />
-                  <br />
-                  <p className="points">
+                {" "}
+                <p className="points">
+                  <h3 className="head text-center fran_head">
+                    Franchise Profile Requirements{" "}
+                  </h3>
+                  <p className="narrow text-center">
+                    <div className="fran_para">
+                      Atti Square believes in providing excellent business
+                      opportunities to entrepreneurs through franchises. We
+                      expect them to have the following criteria.
+                    </div>
+                    <br />
+                    <br />
+
                     <Row>
                       <Col lg={6} className="madhubas">
                         <GiPuzzle size={50} />
@@ -272,6 +274,9 @@ const FranchiseUpdated = () => {
                         <li>
                           <a href="#">Advertising and Marketing Programs</a>
                         </li>
+                      </div>
+
+                      <div className="lis-col">
                         <li>
                           <a href="#">Not dependent on Skilled labor</a>
                         </li>
@@ -280,9 +285,7 @@ const FranchiseUpdated = () => {
                             Centralized Supply – Uniform Taste and Quality
                           </a>
                         </li>
-                      </div>
 
-                      <div className="lis-col">
                         <li>
                           <a href="#">New Products & Development</a>
                         </li>
@@ -291,6 +294,9 @@ const FranchiseUpdated = () => {
                             Site Selection & Development Assistance
                           </a>
                         </li>
+                      </div>
+
+                      <div className="lis-col">
                         <li>
                           <a href="#">Operational & Management Support</a>
                         </li>
@@ -318,7 +324,7 @@ const FranchiseUpdated = () => {
                 className={
                   "tab-pane fade" + (active === "doner" ? "in active" : " ")
                 }
-                id="settings"
+                id="model"
               >
                 <h3 className="head text-center">Model</h3>
                 <Modal_F />
