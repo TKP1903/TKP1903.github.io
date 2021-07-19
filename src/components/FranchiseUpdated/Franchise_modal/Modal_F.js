@@ -7,7 +7,7 @@ const Modal_F = () => {
       <div class="franchise__modal--content">
         <Row>
           {/* <!-- card --> */}
-          <Col>
+          <Col sm={12} md={6}>
             <div class="franchise__modal--card">
               <div class="franchise__modal--icon">
                 <img
@@ -23,7 +23,7 @@ const Modal_F = () => {
           {/* <!-- card --> */}
 
           {/* <!-- card --> */}
-          <Col>
+          <Col sm={12} md={6}>
             <div class="franchise__modal--card">
               <div class="franchise__modal--icon">
                 <img

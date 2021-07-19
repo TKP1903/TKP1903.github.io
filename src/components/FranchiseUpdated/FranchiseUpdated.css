@@ -6,35 +6,35 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 #profile {
   background-image: url("https://www.archanaskitchen.com/images/archanaskitchen/1-Author/sibyl-archanaskitchen.com/Chicken_Shwarma_Recipe_.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 #settings {
   background-image: url("https://i.ytimg.com/vi/lx-ZAmC3j4M/maxresdefault.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 #model {
   background-image: url("https://images.alphacoders.com/109/1093442.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 #messages {
   background-image: url("https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2017/12/01083501/KebabStreet-i.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 .lis-row {
   display: flex;
@@ -139,8 +139,7 @@
 }
 .franchise-u {
   overflow: hidden;
-  margin-bottom: -160px;
-  margin-top: -6px;
+  margin-bottom: -145px;
 }
 .board h2 {
   text-align: center;
