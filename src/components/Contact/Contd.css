@@ -2,7 +2,7 @@
   color: #f0bc1d;
 }
 .cont-bg {
-  background-image: url("https://attisquare.s3.amazonaws.com/atti-images/atti-27.webp") !important;
+  background-image: url("https://attisquare.s3.amazonaws.com/atti-images/atti-16s.webp") !important;
   background-position: center;
   background-size: cover;
   margin-top: 8rem;
@@ -15,7 +15,7 @@ iframe {
     0 16px 20px 0 rgba(0, 0, 0, 0.19);
   z-index: 3;
 }
-.addd{
+.addd {
   color: #f0bc1d;
   font-weight: bold;
   font-size: 15px;

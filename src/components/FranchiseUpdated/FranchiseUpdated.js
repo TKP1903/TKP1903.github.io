@@ -258,57 +258,102 @@ const FranchiseUpdated = () => {
                 <h3 className="head text-center fran_head">
                   Franchise Benefits
                 </h3>
-                <div class="list-type2">
-                  <ol>
-                    <div className="lis-row">
-                      <div className="lis-col">
-                        <li>
-                          <a href="#">Powerful Brand Association</a>
-                        </li>
-                        <li>
-                          <a href="#">A to Z Product Supply</a>
-                        </li>
-                        <li>
-                          <a href="#">Manpower Guarantee</a>
-                        </li>
-                        <li>
-                          <a href="#">Advertising and Marketing Programs</a>
-                        </li>
-                      </div>
-
-                      <div className="lis-col">
-                        <li>
-                          <a href="#">Not dependent on Skilled labor</a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            Centralized Supply – Uniform Taste and Quality
-                          </a>
-                        </li>
-
-                        <li>
-                          <a href="#">New Products & Development</a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            Site Selection & Development Assistance
-                          </a>
-                        </li>
-                      </div>
-
-                      <div className="lis-col">
-                        <li>
-                          <a href="#">Operational & Management Support</a>
-                        </li>
-                        <li>
-                          <a href="#">Low investment; High Margins</a>
-                        </li>
-                        <li>
-                          <a href="#">Accounts & Control System</a>
-                        </li>
+                <div className="lis-row">
+                  <div className="lis-col">
+                    <div className="app">
+                      <div className="circle c1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
                       </div>
                     </div>
-                  </ol>
+                    <div className="app">
+                      <div className="circle c2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div className="app">
+                      <div className="circle c3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div className="app">
+                      <div className="circle c4">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="lis-col">
+                    <div className="app">
+                      <div className="circle c5">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div className="app">
+                      <div className="circle c6">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div className="app">
+                      <div className="circle c7">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div className="app">
+                      <div className="circle c8">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="lis-col">
+                    <div className="app">
+                      <div className="circle c9">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div className="app">
+                      <div className="circle c10">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div className="app">
+                      <div className="circle c11">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div

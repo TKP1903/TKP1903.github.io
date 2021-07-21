@@ -1,5 +1,112 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 /* written by riliwan balogun https://www.facebook.com/riliwan.rabo*/
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  background: linear-gradient(black, #f0bc1d);
+  border-radius: 50%;
+  margin: 40px;
+}
+
+.circle:hover {
+  animation: animate 0.5s linear;
+}
+
+@keyframes animate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.circle::after {
+  content: "1.Powerful brand association ";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  bottom: 35px;
+  left: 35px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.circle span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(black, #f0bc1d);
+  border-radius: 50%;
+}
+
+.circle span:nth-child(1) {
+  filter: blur(5px);
+}
+
+.circle span:nth-child(2) {
+  filter: blur(10px);
+}
+.circle span:nth-child(3) {
+  filter: blur(20px);
+}
+.circle span:nth-child(4) {
+  filter: blur(55px);
+}
+
+.c1::after {
+  content: "Powerful brand Association";
+}
+.c2::after {
+  content: "A to Z Product Supply";
+}
+.c3::after {
+  content: "Manpower Guarantee";
+}
+.c4::after {
+  content: "Advertising and Marketing Programs";
+}
+.c5::after {
+  content: "Not dependent on Skilled labour";
+}
+.c6::after {
+  content: "Centralized Supply - Uniform Taste and Quality";
+}
+.c7::after {
+  content: "New products & Development";
+}
+.c8::after {
+  content: "Site Section and Development Assistance";
+}
+.c9::after {
+  content: "Operational and Management Support";
+}
+.c10::after {
+  content: "Low Investment, High Margin";
+}
+.c11::after {
+  content: "Accounts and Control System";
+}
+
+@media (max-width: 425px) {
+  .circle {
+    width: 200px;
+    height: 200px;
+    margin: 14px;
+  }
+}
 
 #home {
   background-image: url("https://www.hungryforever.com/wp-content/uploads/2016/09/Shawarma-in-Chennai-1280x720.jpg");
@@ -16,7 +123,7 @@
   padding-bottom: 60px;
 }
 #settings {
-  background-image: url("https://i.ytimg.com/vi/lx-ZAmC3j4M/maxresdefault.jpg");
+  background-image: url("https://images-gmi-pmc.edge-generalmills.com/9dbe823a-5bae-47cf-be42-ee5e886a0378.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +137,8 @@
   padding-bottom: 60px;
 }
 #messages {
-  background-image: url("https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2017/12/01083501/KebabStreet-i.jpg");
+  background-image: url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-color: #000;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,14 +201,14 @@
 
 .board {
   width: 100%;
-  margin: 90px auto;
+  margin: 85px auto;
   height: auto;
 
   /* background: url("https://attisquare.s3.amazonaws.com/atti-images/franchise.webp") */
   /* no-repeat; */
   background-color: #000;
   background-position: center;
-  background-size: cover;
+  /* background-size: cover; */
 
   /*box-shadow: 10px 10px #ccc,-10px 20px #ddd;*/
 }
@@ -122,7 +230,8 @@
   font-size: 19px;
 }
 .tab-title {
-  font-size: 13px;
+  font-size: 17px;
+  margin: -10px;
 }
 .pag {
   margin-top: 8 rem;
@@ -394,6 +503,11 @@ li.active span.round-tabs.five {
   text-transform: uppercase;
   padding-bottom: 10px;
   color: #f0bc1d;
+  background: rgba(0, 0, 0, 0.5);
+  /* width: fit-content; */
+  /* display: flex; */
+  width: 100%;
+  padding: 20px;
 }
 .btn-outline-rounded {
   padding: 10px 40px;
@@ -427,7 +541,7 @@ li::after {
 }
 @media (max-width: 991px) {
   .board {
-    width: 95%;
+    width: 100%;
     height: auto !important;
   }
   .madhubas {
@@ -492,7 +606,7 @@ li::after {
     display: none;
   }
   .tab-title {
-    font-size: 9px;
+    font-size: 13px;
   }
   li::after {
     display: none;
@@ -1417,6 +1531,6 @@ a.animated-button.thar-three:before {
 
 @media (max-width: 425px) {
   .board {
-    margin-top: 76px;
+    margin-top: 70px;
   }
 }
