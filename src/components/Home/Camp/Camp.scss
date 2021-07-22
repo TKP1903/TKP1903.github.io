@@ -14,12 +14,14 @@ $gallery-bg: #eee;
 //   margin: 0;
 //   padding: 0;
 // }
-
+.colo{
+  height:auto;
+}
 .demo {
   display: flex;
   width: 100vw;
   margin-top: 3%;
-  height: 100vh;
+  height: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
