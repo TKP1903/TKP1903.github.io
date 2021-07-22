@@ -21,11 +21,11 @@ $gallery-bg: #eee;
   display: flex;
   width: 100vw;
   margin-top: 3%;
-  height: 100%;
+  height: auto;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
+  padding:5%;
   background: url(../images/atti-back1.png);
 
   &__gallery {
@@ -175,11 +175,11 @@ $gallery-bg: #eee;
   .demo {
     display: flex;
     width: 100vw;
-    height: 90vh;
+    height: auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    padding:17%;
     background: url(../images/atti-back1.png);
 
     &__gallery {
