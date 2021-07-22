@@ -57,7 +57,7 @@ const Camp = () => {
     $gallery.on("click", ".demo__part-front", function () {
       $image.css("background-image", $(this).css("background-image"));
       if (help) {
-        $help.html("Campaigns");
+        $help.html("Our Campaigns");
         help = false;
       }
 
@@ -69,7 +69,7 @@ const Camp = () => {
     $gallery.on("click", ".demo__part-back", function () {
       if (!isShowingBack()) return;
 
-      $help.html(`Campaigns`);
+      $help.html(`Our Campaigns`);
 
       setTimeout(function () {
         for (let row = 1; row <= rows; row++) {
