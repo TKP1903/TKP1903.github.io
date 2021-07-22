@@ -122,7 +122,7 @@ const Camp = () => {
 
     <div className="colo">
       <div class="demo">
-        <div class="demo__help">Campaigns</div>
+        <div class="demo__help">Our Campaigns</div>
         <div class="demo__res">
           <div class="demo__gallery">
             <div class="demo__placeholder"></div>
