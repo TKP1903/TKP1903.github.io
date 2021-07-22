@@ -126,10 +126,10 @@ $gallery-bg: #eee;
     font-size: 30px;
     font-family: "Yanone Kaffeesatz", sans-serif;
 
-    color: white;
+    color: black !important;
 
     & a {
-      color: white;
+      color: black;
 
       &:hover {
         color: #e39999;
@@ -281,10 +281,10 @@ $gallery-bg: #eee;
       font-size: 30px;
       font-family: "Yanone Kaffeesatz", sans-serif;
 
-      color: white;
+      color: black !important;
 
       & a {
-        color: white;
+        color: black;
 
         &:hover {
           color: #e39999;
